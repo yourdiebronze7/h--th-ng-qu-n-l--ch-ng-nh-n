@@ -1,0 +1,17 @@
+{
+  "name": "hệ-thống-quản-lý-chứng-nhận",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý chứng nhận dựa trên blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.5.0",
+    "ipfs-http-client": "^56.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
