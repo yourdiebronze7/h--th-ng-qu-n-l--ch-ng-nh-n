@@ -6,9 +6,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.send('Hệ thống quản lý chứng nhận hoạt động!');
+  res.send('Welcome to the Certification Management System!');
 });
 
 app.listen(PORT, () => {
-  console.log(`Server đang chạy trên http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
